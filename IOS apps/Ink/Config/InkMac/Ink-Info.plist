@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeIconFile</key>
+			<string>InkJournalDocument</string>
+			<key>CFBundleTypeName</key>
+			<string>Ink5 日志文稿</string>
+			<key>LSTypeIsPackage</key>
+			<true/>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSHandlerRank</key>
+			<string>Owner</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.zhuhuaijin.ink.journal</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Ink5</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>NSRequiresAquaSystemAppearance</key>
+	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Ink5 需要使用相机，这样你才能直接把照片和视频加入日志。</string>
+	<key>NSHumanReadableCopyright</key>
+	<string></string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Ink5 需要使用麦克风，这样录制的日志视频才能带有声音。</string>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>com.apple.package</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Ink5 日志文稿</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.zhuhuaijin.ink.journal</string>
+			<key>UTTypeIconFile</key>
+			<string>InkJournalDocument</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>inkjournal</string>
+				</array>
+				<key>public.mime-type</key>
+				<string>application/vnd.zhuhuaijin.ink-journal</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
